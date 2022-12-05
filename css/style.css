@@ -1,0 +1,346 @@
+ /* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+   /* Styling for humberger-icon */
+  .humburger-icon{
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 10px;
+  }
+   /* Styling for humberger-icon hover */
+  .humburger-icon:hover{
+    background-color: lightgrey;
+    border-radius: 50%;
+   
+    cursor: pointer;
+  }
+  /* Styling for header section*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+  }
+  main {
+    height: calc(100vh - 70px);
+    display: flex;
+    background-color: #f9f9f9;
+  }
+  /* Styling for Sidebar */ 
+.side-bar {
+    height: 100%;
+    width: 17%;
+    background-color: white;
+    overflow-y: hidden;
+  } 
+  
+  /* Styling for left panel of header */
+  .left {
+    display: flex;
+    align-items: center;
+   }
+
+   /* Styling anchors for title of movies */
+   
+   .left #menu {
+    padding: 0 7px;
+    cursor: pointer;
+   }
+   /* flex display of search input */
+   .search {
+    display: flex;
+   }
+   /* Styling for search form */
+   .search form {
+    display: flex;
+    height: 45px;
+   }
+   /* Styling for search input */
+   .search input {
+    width: 600px;
+    padding:10px;
+    border: 0.5px solid grey;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  /* Styling input focus*/
+  input:focus {
+    outline: none;
+    border: 1px solid #ddd;
+  }
+  /* Styling for search button */
+  .search button {
+    height: 100%;
+    width: 60px;
+    border: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 0.5px solid grey;
+  }
+   /* Styling for microphone */
+  .mic {
+    margin-top: 10px;
+  }
+  /* Styling for material icons */
+  .material-icons {
+    color: rgb(100, 100, 100);
+    padding: 0 7px;
+    cursor: pointer;
+  }
+  /* Styling navigation div */
+  .nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  /* Styling for navigation links */
+  .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+  }
+  /* Styling for hover links span*/
+ .nav-link span {
+    margin-left: 15px;
+  }
+  /* Styling for hover links */
+ .nav-link:hover {
+    background: #e5e5e5;
+    cursor: pointer;
+  }
+ /* Styling for active links */
+ .active {
+    background: #e5e5e5;
+ }
+ /* Styling for horizontal line */
+ hr {
+    height: 1px;
+    background-color: #e5e5e5;
+    border: none;
+  }
+  /* Styling for video content*/
+  .content {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    padding: 15px 15px;
+    border-top: 1px solid #ddd;
+    overflow-y: scroll;
+  }
+  /* Styling for video divs */
+  .videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  /* Styling for video div hosting movies */
+  .video {
+    width: 270px;
+    margin-bottom: 30px;
+  }
+  /* Styling thumbnail size */
+  .thumbnail {
+    width: 100%;
+    height: 170px;
+  }
+  /* Styling for thumbnail images */
+  .thumbnail img {
+    object-fit: cover;
+    height: 94%;
+    width: 100%;
+  }
+  /* Styling boarde radius of image thumbnails */
+  .thumbnail > img{
+    border-radius: 15px;
+  }
+  /* Styling for live showing movies */
+  .live{
+    width: 55px;
+    height: 55px;
+  }
+  /* Styling movie author images */
+  .author img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+  /* Styling detail videos div */
+  .details {
+    display: flex;
+  }
+  /* Styling  title of movies */
+  .title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Styling h3 heading title of movies */ 
+  .title h3 {
+    color: rgb(3, 3, 3);
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  
+  /* Styling anchors for title of movies */
+  .title a,
+  span {
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+  }
+   /* Styling  next icon icon */
+  .direction button{
+    background-color: transparent;
+    border-radius: 50%;
+  }
+   /* Styling microphone icon */
+  .mic{
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 10px;
+    margin-top: 5px;
+  }
+   /* Styling horizontal tab name */
+  .tab-name{
+    text-align: right;
+  }
+   /* Styling microphone hover icon */
+  .mic:hover{
+    background-color: lightgray;
+    border-radius: 50%;
+  }
+   /* Styling youtube home icon */
+  .home-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+   /* Styling youtube subscription icon */
+  .subscribe-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+   /* Styling youtube library icon */
+  .library-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+   /* Styling youtube history icon */
+  .history-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+   /* Styling youtube trending icon */
+  .trending-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+   /* Styling youtube music icon */
+  .music-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+   /* Styling youtube gamepad icon */
+  .gamepad-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+   /* Styling youtube sports icon */
+  .sports-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  /* Styling youtube short icon */
+  .short-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  /* Styling for next tab */
+  .sign{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  /* Style three dots */
+  .three-dots-icon{
+    height: 30px;
+    width: 25px;
+    margin-left: 10px;
+  }
+  
+/* Style horizontal tabs */
+  .tab {
+    overflow:hidden;
+    background-color: transparent;
+    margin-bottom: 10px;
+    }
+
+    /* Style the buttons that are used to open the tab content */
+    .tab button {
+    background-color: rgba(236, 234, 234, 0.897);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 14px;
+    border-radius: 10px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+    background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+    background-color: #ccc;
+    }
+    .tablinks{
+        margin-right:5px;
+    }
+ /* media querries */
+    @media (max-width: 768px) {
+      .side-bar {
+        display: none;
+      }
+    }
+  @media (max-width: 768px) {
+    .side-bar {
+      display: none;
+    }
+    .search {
+      display: none;
+    }
+}
+@media (max-width: 900px) {
+    .search input {
+      width: 25rem;
+    }
+  }

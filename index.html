@@ -1,0 +1,303 @@
+<!--Using HTML and CSS to 
+   develop a Youtube template-->
+   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Baruch Prince">
+    <meta name="keywords" content="YouTube, videos, movies">
+    <meta http-equiv="refresh" content="10">
+    <title>YouTube</title>
+    <link rel="icon" type="image/x-icon" href="./images/youtube.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+   <!--Header section -->
+    <header class="header">
+        <div class="logo left">
+            <img src="./images/menu-line.png" alt="" class="humburger-icon">
+            <img src="./images/yt-logo.png">
+          </div>
+          
+          <div class="search center">
+            <form action="">
+              <input type="text" placeholder="Search" />
+              <button><i class="material-icons">search</i></button>
+            </form>
+            <i class="material-icons mic" title="Search with your voice">mic</i>
+          </div>
+          
+          <div class="icons right">
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons display-this">account_circle</i>
+          </div>
+    </header>
+
+    <!--Main container content-->
+      <main>
+         <!--Side bar of web page-->
+        <div class="side-bar">
+               <!--Navigation section-->
+                <div class="nav">
+                    <a class="nav-link active">
+                        <img src="./images/home-4-fill.png" alt="home-page" class="home-icon">
+                       <span class="tab-name">Home</span>
+                    </a>
+                    <a class="nav-link">
+                       <img src="./images/short.png" alt="" class="short-icon">
+                       <span class="tab-name">Shorts</span>
+                    </a>
+                    <a class="nav-link">
+                        <img src="./images/subscribe.png" alt="subscription" class="subscribe-icon">
+                        <span class="tab-name">Subscriptions</span>
+                    </a>
+                  </div>
+                  <hr>
+                <a class="nav-link">
+                     <img src="./images/library.png" alt="library" class="library-icon">
+                     <span class="tab-name">Library</span>
+                 </a>
+                 <a class="nav-link">
+                     <img src="./images/history.png" alt="history" class="history-icon">
+                     <span class="tab-name">History</span>
+                 </a>
+                 <hr>
+                 <p style="margin-top:10px;margin-left:15px;">Explore</p>
+
+                 <a class="nav-link">
+                     <img src="./images/fire.png" alt="trending" class="trending-icon">
+                     <span class="tab-name">Trending</span>
+                 </a>
+                 <a class="nav-link">
+                     <img src="./images/musical-note.png" alt="music" class="music-icon">
+                     <span class="tab-name">Music</span>
+                 </a>
+                 <a class="nav-link">
+                    <img src="./images/gamepad-line.png" alt="" class="gamepad-icon">
+                    <span class="tab-name">Gaming</span>
+                 </a>
+                 <a class="nav-link">
+                    <img src="./images/world-cup.png" alt="sports" class="sports-icon">
+                    <span class="tab-name">Sports</span>
+                 </a>
+            </div>
+            
+        </div>
+        <!--Main Content to host tab links and videos-->
+        <div class="content">
+            <!--Tablinks container-->
+            <div class="tab">
+                <button class="tablinks" style="background-color: #000000;color: white;">All</button>
+                <button class="tablinks" onclick="">Music</button>
+                <button class="tablinks" onclick="">Life</button>
+
+                <button class="tablinks" onclick="">Playlist</button>
+                <button class="tablinks" onclick="">Nollywood</button>
+                <button class="tablinks" onclick="">World Cup</button>
+
+                <button class="tablinks" onclick="">Africa Music</button>
+                <button class="tablinks" onclick="">Dua Lipa</button>
+                <button class="tablinks" onclick="">Chill-out music</button>
+                <button class="tablinks" onclick="">Scene</button>
+                <button class="tablinks" onclick="">Contemporary worship music</button>
+                <img src="./images/arrow-right-s-line.png" alt="next tab" class="sign">
+            </div>
+
+            <!--Section for videos-->
+            <div class="videos">
+                <!-- First video -->
+                  <div class="video">
+                     <div class="thumbnail">
+                        <img src="./images/one.jpg" alt="ferrari movie" />
+                      </div>
+              
+                        <div class="details">
+                           <div class="author">
+                              <img src="./images/one.jpg" alt="ferrari movie" />
+                           </div>
+                           <div class="title">
+                              <h3>
+                                  <p>Fiction & Thrill Movies 2022 <span><img style="float: right;" src="./images/three dots.png" alt="details" class="three-dots-icon"></span></p> Ahmed Riggo
+                               </h3>
+                               <a href="">
+                                Banfam Tur
+                                </a>
+                                <span> 12M Views • 9 Months Ago </span>
+                                <span><img src="./images/live.jpg" alt="live-show" class="live"></span>
+                           </div>
+                         </div>
+              
+                       </div>
+
+                 <!-- Second videos -->
+                 <div class="video">
+                    <div class="thumbnail">
+                       <img src="./images/two.jpg" alt="fiction movie" />
+                     </div>
+             
+                       <div class="details">
+                          <div class="author">
+                             <img src="./images/two.jpg" alt="fiction movie" />
+                          </div>
+                          <div class="title">
+                             <h3>
+                              <p>Fiction & Thrill Movies 2022 <span><img style="float: right;" src="./images/three dots.png" alt="details" class="three-dots-icon"></span></p> Ahmed Riggo
+                              </h3>
+                              <a href="">
+                                 Banfam Tur
+                               </a>
+                               <span> 3M Views • 4 Months Ago </span>
+                          </div>
+                        </div>
+             
+                      </div>
+
+                <!-- Third videos -->
+                <div class="video">
+                    <div class="thumbnail">
+                       <img src="./images/two.jpg" alt="documentary" />
+                     </div>
+             
+                       <div class="details">
+                          <div class="author">
+                             <img src="./images/two.jpg" alt="documentary" />
+                          </div>
+                          <div class="title">
+                             <h3>
+                              <p>Fiction & Thrill Movies 2022 <span><img style="float: right;" src="./images/three dots.png" alt="details" class="three-dots-icon"></span></p> Ahmed Riggo
+                              </h3>
+                              <a href="">
+                                 Georop Ned
+                               </a>
+                               <span> 7.9M Views • 2 Years Ago </span>
+                          </div>
+                        </div>
+             
+                      </div>
+
+                <!-- Fourth videos -->
+                <div class="video">
+                    <div class="thumbnail">
+                       <img src="./images/four.jpg" alt="action movie" />
+                     </div>
+             
+                       <div class="details">
+                          <div class="author">
+                             <img src="./images/four.jpg" alt="action movie" />
+                          </div>
+                          <div class="title">
+                             <h3>
+                              <p>Fiction & Thrill Movies 2022 <span><img style="float: right;" src="./images/three dots.png" alt="details" class="three-dots-icon"></span></p> Ahmed Riggo
+                              </h3>
+                              <a href="">
+                                 Torislk Bur
+                               </a>
+                               <span> 2.5M Views • 10 Months Ago </span>
+                          </div>
+                        </div>
+             
+                      </div>
+
+                <!-- Fifth video -->
+                <div class="video">
+                    <div class="thumbnail">
+                       <img src="./images/five.jpg" alt="adventure movie" />
+                     </div>
+             
+                       <div class="details">
+                          <div class="author">
+                             <img src="./images/five.jpg" alt="adventure movie" />
+                          </div>
+                          <div class="title">
+                             <h3>
+                              <p>Fiction & Thrill Movies 2022 <span><img style="float: right;" src="./images/three dots.png" alt="details" class="three-dots-icon"></span></p> Ahmed Riggo
+                              </h3>
+                              <a href="">
+                                     Opeturk utis
+                               </a>
+                               <span> 17K Views • 8 Months Ago </span>
+                          </div>
+                        </div>
+             
+                     </div>
+
+                <!-- Sixth video -->
+                <div class="video">
+                    <div class="thumbnail">
+                       <img src="./images/six.jpg" alt="historic movie" />
+                     </div>
+             
+                       <div class="details">
+                          <div class="author">
+                             <img src="./images/six.jpg" alt="historic movie" />
+                          </div>
+                          <div class="title">
+                             <h3>
+                              <p>Fiction & Thrill Movies 2022 <span><img style="float: right;" src="./images/three dots.png" alt="details" class="three-dots-icon"></span></p> Ahmed Riggo
+                              </h3>
+                              <a href="">
+                                     Quest Hinm
+                               </a>
+                               <span> 13.8K Views • 7 Months Ago </span>
+                          </div>
+                        </div>
+             
+                      </div>
+
+                <!-- seventh video -->
+                <div class="video">
+                    <div class="thumbnail">
+                       <img src="./images/seven.jpg" alt="adventure movie" />
+                     </div>
+             
+                       <div class="details">
+                          <div class="author">
+                             <img src="./images/seven.jpg" alt="adventure movie" />
+                          </div>
+                          <div class="title">
+                             <h3>
+                              <p>Fiction & Thrill Movies 2022 <span><img style="float: right;" src="./images/three dots.png" alt="details" class="three-dots-icon"></span></p> Ahmed Riggo
+                              </h3>
+                              <a href="">
+                                     Vitedk nirh
+                               </a>
+                               <span> 21.5M Views • 6 Months Ago </span>
+                          </div>
+                        </div>
+             
+                      </div>
+
+                <!-- Eight video -->
+                <div class="video">
+                    <div class="thumbnail">
+                       <img src="./images/eight.jpg" alt="adventure movie" />
+                     </div>
+             
+                       <div class="details">
+                          <div class="author">
+                             <img src="./images/eight.jpg" alt="adventure movie" />
+                          </div>
+                          <div class="title">
+                             <h3>
+                              <p>Fiction & Thrill Movies 2022 <span><img style="float: right;" src="./images/three dots.png" alt="details" class="three-dots-icon"></span></p> Ahmed Riggo
+                              </h3>
+                              <a href="">
+                                     Jopper Johns
+                               </a>
+                               <span> 2.51K Views • 1 Year Ago </span>
+                          </div>
+                        </div>
+             
+                      </div>
+               </div>
+        </div>
+      </main>
+    
+</body>
+</html>
